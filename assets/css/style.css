@@ -30,6 +30,7 @@ header{
     border: 1px solid lightgrey;
     margin-top: 20px;
     margin-left: 40px;
+    margin-right: 338px;
     width: 545px;
     
     
@@ -72,3 +73,43 @@ header{
    margin-right: 20px;
    margin-left: 10px;
 }
+
+.icon-config{
+    fill: rgb(95, 99, 104);
+    width:28px;
+    
+}
+
+
+.apps {
+    height: 24px;
+    width: 24px;
+    
+  }
+
+  .profile{
+  border-radius: 2em;
+  
+}
+  
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+  
+  .navbar {
+      padding-top: 5px;
+  }
+  .navbar li {
+    padding-right: 25px;
+    list-style: none;
+    font-size: 13px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+  }
