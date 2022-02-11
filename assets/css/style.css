@@ -1,0 +1,74 @@
+*{ /* para todos os elementos da pagina */
+    box-sizing: border-box; /* width será a soma do conteúdo com a borda e o padding. */
+}
+
+
+body{
+    margin: 0px;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    padding-left: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    border-radius: 2em;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 545px;
+    
+    
+}
+.searchbar{
+    border: none;
+    width: 381px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.search:hover{
+    box-shadow: 0px 0px 5px 1px lightgrey;
+}
+.searchbar[type="text"]:focus {
+   outline:none
+}
+
+#search-image-glass{
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    
+}
+
+#search-image-keyboard{
+    padding-top: 10px;
+    margin-right: 15px;
+}
+.x{
+    fill:rgb(104, 101, 101) ;
+    height:28px;
+    margin-top: 6px;
+}
+.line{
+  
+   color: whitesmoke;
+   height: 30px;
+   margin-right: 20px;
+   margin-left: 10px;
+}
